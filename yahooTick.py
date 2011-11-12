@@ -7,6 +7,12 @@ import os
 import sys
 import urllib2
 
+
+#
+## This script is very raw!!
+##
+#
+
 # this gets all yahoo data
 #stat='l1c1va2xj1b4j4dyekjm3m4rr5p5p6s7'
 # this only gets the price
@@ -26,8 +32,8 @@ def quotes():
 
 def hist():
     symbol = 'EURUSD'
-    end_date = '20110902'
-    start_date = '20010102'
+    end_date = '20120902'
+    start_date = '20111002'
     url = 'http://ichart.yahoo.com/table.csv?s=%s=X&' % symbol + \
           'd=%s&' % str(int(end_date[4:6]) - 1) + \
           'e=%s&' % str(int(end_date[6:8])) + \
