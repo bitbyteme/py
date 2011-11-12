@@ -3,6 +3,11 @@
 
 #<COPYLEFT>
 
+#
+## This is a parser for Gain Capital
+#
+
+
 import os
 import sys
 import pprint
