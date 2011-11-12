@@ -67,7 +67,7 @@ def main(f):
         # parsing raw data
         f = [x.replace('\r\n', '').split(',')[-4:] for x in f.readlines()]
 
-        # only official heading, so far!
+        # only official heading supported, so far!
         head = ['CurrencyPair', 'RateDateTime', 'RateBid', 'RateAsk']
         if f.pop(0) != head: raise 'Error' # have to create an exception!!
         
