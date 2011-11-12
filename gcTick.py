@@ -4,7 +4,7 @@
 #<COPYLEFT>
 
 #
-## This is a parser for Gain Capital
+## This is a parser for Gain Capital historical data
 #
 
 
