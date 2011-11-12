@@ -27,7 +27,7 @@ def quotes():
 
     symbol = ['EURUSD', 'USDJPY', 'GBPUSD', 'USDAUD', 'USDCAD', 'CHFUSD', 'USDNZD']
     for i in symbol:
-        qt=[i, urllib2.urlopen(url % (i, stat)).read().split(',')[0]]
+        qt = [i, urllib2.urlopen(url % (i, stat)).read().split(',')[0]]
         print(qt)
 
 def hist():
